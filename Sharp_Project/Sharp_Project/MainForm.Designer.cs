@@ -50,7 +50,7 @@ namespace Sharp_Project
 									"Física",
 									"Humanidades",
 									"Lengua y Comunicación"});
-			this.cmbMaterias.Location = new System.Drawing.Point(80, 79);
+			this.cmbMaterias.Location = new System.Drawing.Point(162, 75);
 			this.cmbMaterias.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.cmbMaterias.Name = "cmbMaterias";
 			this.cmbMaterias.Size = new System.Drawing.Size(299, 24);
@@ -59,7 +59,7 @@ namespace Sharp_Project
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(157, 34);
+			this.label1.Location = new System.Drawing.Point(239, 30);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(147, 23);
 			this.label1.TabIndex = 1;
