@@ -64,5 +64,11 @@ namespace Sharp_Project
                 materiaForm.Show();
             }
 		}
+		
+		void LBLacercadeClick(object sender, EventArgs e)
+		{
+			AcercaDe Acerca = new AcercaDe();
+			Acerca.Show();
+		}
 	}
 }

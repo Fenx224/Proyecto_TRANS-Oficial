@@ -79,6 +79,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AcercaDe.resx">
+      <DependentUpon>AcercaDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanidadesForm.resx">
+      <DependentUpon>HumanidadesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LenguaYComunicacion.resx">
       <DependentUpon>LenguaYComunicacion.cs</DependentUpon>
     </EmbeddedResource>
