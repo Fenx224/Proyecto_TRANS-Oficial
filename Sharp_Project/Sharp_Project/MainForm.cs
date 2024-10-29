@@ -29,5 +29,40 @@ namespace Sharp_Project
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		
+		void CmbmateriasSelectedIndexChanged(object sender, EventArgs e)
+		{
+			string materiaSeleccionada = cmbMaterias.SelectedItem.ToString();
+
+            // Abre un formulario basado en la materia seleccionada
+            Form materiaForm;
+            switch (materiaSeleccionada)
+            {
+                case "Matemáticas":
+                    materiaForm = new MatematicasForm();
+                    break;
+                case "Inglés":
+                    materiaForm = new InglesForm();
+                    break;
+                case "Física":
+                    materiaForm = new fisica();
+                    break;
+                case "Humanidades":
+                    materiaForm = new HumanidadesForm();
+                    break;
+                case "Lengua y Comunicación":
+                    materiaForm = new LenguaYComunicacion();
+                    break;
+                default:
+                    materiaForm = null;
+                    break;
+            }
+
+            if (materiaForm != null)
+            {
+                materiaForm.Show();
+            }
+		}
 	}
 }

@@ -1,0 +1,3 @@
+C:\Users\CC-PC47\Proyecto_TRANS-Oficial\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.csprojResolveAssemblyReference.cache
+C:\Users\CC-PC47\Proyecto_TRANS-Oficial\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.MainForm.resources
+C:\Users\CC-PC47\Proyecto_TRANS-Oficial\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.csproj.GenerateResource.Cache
