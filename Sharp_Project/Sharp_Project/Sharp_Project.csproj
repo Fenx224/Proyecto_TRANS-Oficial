@@ -79,6 +79,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Fisica.resx">
+      <DependentUpon>Fisica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LenguaYComunicacion.resx">
       <DependentUpon>LenguaYComunicacion.cs</DependentUpon>
     </EmbeddedResource>
