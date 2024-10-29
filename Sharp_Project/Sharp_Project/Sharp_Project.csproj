@@ -47,6 +47,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fisica.cs" />
+    <Compile Include="Fisica.Designer.cs">
+      <DependentUpon>Fisica.cs</DependentUpon>
+    </Compile>
     <Compile Include="HumanidadesForm.cs" />
     <Compile Include="HumanidadesForm.Designer.cs">
       <DependentUpon>HumanidadesForm.cs</DependentUpon>
@@ -54,6 +58,10 @@
     <Compile Include="InglesForm.cs" />
     <Compile Include="InglesForm.Designer.cs">
       <DependentUpon>InglesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LenguaYComunicacion.cs" />
+    <Compile Include="LenguaYComunicacion.Designer.cs">
+      <DependentUpon>LenguaYComunicacion.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
@@ -67,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="LenguaYComunicacion.resx">
+      <DependentUpon>LenguaYComunicacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
