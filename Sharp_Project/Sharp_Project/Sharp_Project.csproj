@@ -47,6 +47,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcercaDe.cs" />
+    <Compile Include="AcercaDe.Designer.cs">
+      <DependentUpon>AcercaDe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fisica.cs" />
     <Compile Include="Fisica.Designer.cs">
       <DependentUpon>Fisica.cs</DependentUpon>
