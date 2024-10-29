@@ -46,7 +46,7 @@ namespace Sharp_Project
                     materiaForm = new InglesForm();
                     break;
                 case "Física":
-                    materiaForm = new fisica();
+                    materiaForm = new Fisica();
                     break;
                 case "Humanidades":
                     materiaForm = new HumanidadesForm();
