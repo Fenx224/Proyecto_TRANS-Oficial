@@ -40,11 +40,16 @@ namespace Sharp_Project
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.panel1 = new System.Windows.Forms.Panel();
+<<<<<<< HEAD
+=======
+			this.label3 = new System.Windows.Forms.Label();
+			this.panel1.SuspendLayout();
+>>>>>>> bcdab8d15847fa5568e8ace71aed7e7098483519
 			this.SuspendLayout();
 			// 
 			// btnJUEGO1
 			// 
-			this.btnJUEGO1.Location = new System.Drawing.Point(33, 247);
+			this.btnJUEGO1.Location = new System.Drawing.Point(34, 370);
 			this.btnJUEGO1.Name = "btnJUEGO1";
 			this.btnJUEGO1.Size = new System.Drawing.Size(75, 23);
 			this.btnJUEGO1.TabIndex = 0;
@@ -64,7 +69,7 @@ namespace Sharp_Project
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(10, 33);
+			this.label2.Location = new System.Drawing.Point(14, 33);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(212, 23);
 			this.label2.TabIndex = 2;
@@ -73,25 +78,52 @@ namespace Sharp_Project
 			// panel1
 			// 
 			this.panel1.BackColor = System.Drawing.Color.White;
+<<<<<<< HEAD
 			this.panel1.Location = new System.Drawing.Point(33, 59);
 			this.panel1.Name = "panel1";
 			this.panel1.Size = new System.Drawing.Size(563, 182);
 			this.panel1.TabIndex = 3;
 			// 
+=======
+			this.panel1.Controls.Add(this.label3);
+			this.panel1.Location = new System.Drawing.Point(34, 59);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(563, 295);
+			this.panel1.TabIndex = 3;
+			// 
+			// label3
+			// 
+			this.label3.Location = new System.Drawing.Point(13, 14);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(100, 23);
+			this.label3.TabIndex = 0;
+			this.label3.Text = "El ensayo";
+			// 
+>>>>>>> bcdab8d15847fa5568e8ace71aed7e7098483519
 			// LenguaYComunicacion
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
 			this.ClientSize = new System.Drawing.Size(630, 293);
+=======
+			this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+			this.ClientSize = new System.Drawing.Size(630, 405);
+>>>>>>> bcdab8d15847fa5568e8ace71aed7e7098483519
 			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.btnJUEGO1);
 			this.Name = "LenguaYComunicacion";
 			this.Text = "LenguaYComunicacion";
+			this.panel1.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
+<<<<<<< HEAD
+=======
+		private System.Windows.Forms.Label label3;
+>>>>>>> bcdab8d15847fa5568e8ace71aed7e7098483519
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
