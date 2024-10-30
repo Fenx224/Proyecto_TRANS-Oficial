@@ -39,6 +39,7 @@ namespace Sharp_Project
 			this.cmbMaterias = new System.Windows.Forms.ComboBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.LBLacercade = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// cmbMaterias
@@ -74,11 +75,20 @@ namespace Sharp_Project
 			this.LBLacercade.Text = "Acerca De";
 			this.LBLacercade.Click += new System.EventHandler(this.LBLacercadeClick);
 			// 
+			// label2
+			// 
+			this.label2.Location = new System.Drawing.Point(2, 531);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.TabIndex = 3;
+			this.label2.Text = "Version 1.13.0";
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(643, 551);
+			this.Controls.Add(this.label2);
 			this.Controls.Add(this.LBLacercade);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.cmbMaterias);
@@ -87,6 +97,7 @@ namespace Sharp_Project
 			this.Text = "Sharp_Project";
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label LBLacercade;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.ComboBox cmbMaterias;
