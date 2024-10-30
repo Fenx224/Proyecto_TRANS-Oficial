@@ -44,7 +44,7 @@ namespace Sharp_Project
 			// 
 			// btnJUEGO1
 			// 
-			this.btnJUEGO1.Location = new System.Drawing.Point(33, 247);
+			this.btnJUEGO1.Location = new System.Drawing.Point(31, 313);
 			this.btnJUEGO1.Name = "btnJUEGO1";
 			this.btnJUEGO1.Size = new System.Drawing.Size(75, 23);
 			this.btnJUEGO1.TabIndex = 0;
@@ -64,7 +64,7 @@ namespace Sharp_Project
 			// label2
 			// 
 			this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(10, 33);
+			this.label2.Location = new System.Drawing.Point(14, 33);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(212, 23);
 			this.label2.TabIndex = 2;
@@ -73,17 +73,16 @@ namespace Sharp_Project
 			// panel1
 			// 
 			this.panel1.BackColor = System.Drawing.Color.White;
-			this.panel1.Location = new System.Drawing.Point(33, 59);
+			this.panel1.Location = new System.Drawing.Point(10, 59);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(563, 182);
-			this.panel1.TabIndex = 3;
+			this.panel1.Size = new System.Drawing.Size(554, 248);
+			this.panel1.TabIndex = 0;
 			// 
 			// LenguaYComunicacion
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-			this.ClientSize = new System.Drawing.Size(630, 293);
+			this.ClientSize = new System.Drawing.Size(576, 344);
 			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
@@ -92,6 +91,10 @@ namespace Sharp_Project
 			this.Text = "LenguaYComunicacion";
 			this.ResumeLayout(false);
 		}
+/*<<<<<<< HEAD
+=======
+		private System.Windows.Forms.Label label3;
+>>>>>>> bcdab8d15847fa5568e8ace71aed7e7098483519*/
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
