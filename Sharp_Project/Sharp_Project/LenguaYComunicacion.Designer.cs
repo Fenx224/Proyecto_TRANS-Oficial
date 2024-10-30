@@ -39,6 +39,7 @@ namespace Sharp_Project
 			this.btnJUEGO1 = new System.Windows.Forms.Button();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
+			this.panel1 = new System.Windows.Forms.Panel();
 			this.SuspendLayout();
 			// 
 			// btnJUEGO1
@@ -69,11 +70,21 @@ namespace Sharp_Project
 			this.label2.TabIndex = 2;
 			this.label2.Text = "By: Juan Rafael González Díaz";
 			// 
+			// panel1
+			// 
+			this.panel1.BackColor = System.Drawing.Color.White;
+			this.panel1.Location = new System.Drawing.Point(33, 59);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(563, 182);
+			this.panel1.TabIndex = 3;
+			// 
 			// LenguaYComunicacion
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
 			this.ClientSize = new System.Drawing.Size(630, 293);
+			this.Controls.Add(this.panel1);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.btnJUEGO1);
@@ -81,6 +92,7 @@ namespace Sharp_Project
 			this.Text = "LenguaYComunicacion";
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button btnJUEGO1;
