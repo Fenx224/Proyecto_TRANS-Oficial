@@ -60,7 +60,7 @@ namespace Sharp_Project
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(77, 111);
+			this.label3.Location = new System.Drawing.Point(61, 100);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(686, 23);
 			this.label3.TabIndex = 2;

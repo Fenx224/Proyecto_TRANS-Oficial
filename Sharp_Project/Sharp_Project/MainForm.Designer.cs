@@ -81,7 +81,7 @@ namespace Sharp_Project
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
 			this.label2.TabIndex = 3;
-			this.label2.Text = "Version 1.13.0";
+			this.label2.Text = "Version 1.15.0";
 			// 
 			// MainForm
 			// 
