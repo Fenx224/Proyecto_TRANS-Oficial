@@ -38,6 +38,7 @@ namespace Sharp_Project
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -57,17 +58,28 @@ namespace Sharp_Project
 			this.label2.TabIndex = 1;
 			this.label2.Text = "Este es un sub titulo";
 			// 
+			// label3
+			// 
+			this.label3.Location = new System.Drawing.Point(77, 111);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(686, 23);
+			this.label3.TabIndex = 2;
+			this.label3.Text = "En la materia de humanidades vimos temas relacionados con la filosofia, el bien y" +
+			" el mal, entre otras cosas";
+			// 
 			// HumanidadesForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(775, 513);
+			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Name = "HumanidadesForm";
 			this.Text = "HumanidadesForm";
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
 	}
