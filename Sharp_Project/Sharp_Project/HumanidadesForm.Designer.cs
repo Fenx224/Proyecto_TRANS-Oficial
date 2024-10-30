@@ -37,6 +37,7 @@ namespace Sharp_Project
 		private void InitializeComponent()
 		{
 			this.label1 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -48,16 +49,26 @@ namespace Sharp_Project
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Humanidades";
 			// 
+			// label2
+			// 
+			this.label2.Location = new System.Drawing.Point(312, 60);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(143, 23);
+			this.label2.TabIndex = 1;
+			this.label2.Text = "Este es un sub titulo";
+			// 
 			// HumanidadesForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(775, 513);
+			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Name = "HumanidadesForm";
 			this.Text = "HumanidadesForm";
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
 	}
 }
