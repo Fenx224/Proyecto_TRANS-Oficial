@@ -59,6 +59,10 @@
     <Compile Include="HumanidadesForm.Designer.cs">
       <DependentUpon>HumanidadesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Humanidadesinfo.cs" />
+    <Compile Include="Humanidadesinfo.Designer.cs">
+      <DependentUpon>Humanidadesinfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="InglesForm.cs" />
     <Compile Include="InglesForm.Designer.cs">
       <DependentUpon>InglesForm.cs</DependentUpon>
