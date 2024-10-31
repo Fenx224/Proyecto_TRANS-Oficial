@@ -28,5 +28,17 @@ namespace Sharp_Project
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			int M,F,rel;
+			M= int.Parse(textBox1.Text);
+			F= int.Parse(textBox2.Text);
+			rel=F/M;
+			label10.Text="Resultado = " + rel.ToString();
+			
+		}
 	}
 }

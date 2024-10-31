@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: CC-PC47
- * Date: 29/10/2024
- * Time: 07:42 a. m.
+ * User: fenx2
+ * Date: 31/10/2024
+ * Time: 08:28 a. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -13,11 +13,11 @@ using System.Windows.Forms;
 namespace Sharp_Project
 {
 	/// <summary>
-	/// Description of HumanidadesForm.
+	/// Description of Humanidadesinfo.
 	/// </summary>
-	public partial class HumanidadesForm : Form
+	public partial class Humanidadesinfo : Form
 	{
-		public HumanidadesForm()
+		public Humanidadesinfo()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -27,12 +27,6 @@ namespace Sharp_Project
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
-		}
-		
-		void Button1Click(object sender, EventArgs e)
-		{
-			Humanidadesinfo Huin = new Humanidadesinfo();
-			Huin.Show();
 		}
 	}
 }

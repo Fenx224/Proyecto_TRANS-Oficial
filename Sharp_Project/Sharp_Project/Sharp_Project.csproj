@@ -59,6 +59,10 @@
     <Compile Include="HumanidadesForm.Designer.cs">
       <DependentUpon>HumanidadesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Humanidadesinfo.cs" />
+    <Compile Include="Humanidadesinfo.Designer.cs">
+      <DependentUpon>Humanidadesinfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="InglesForm.cs" />
     <Compile Include="InglesForm.Designer.cs">
       <DependentUpon>InglesForm.cs</DependentUpon>
@@ -81,6 +85,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Fisica.resx">
       <DependentUpon>Fisica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanidadesForm.resx">
+      <DependentUpon>HumanidadesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LenguaYComunicacion.resx">
       <DependentUpon>LenguaYComunicacion.cs</DependentUpon>
