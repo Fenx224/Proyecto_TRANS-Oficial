@@ -28,5 +28,11 @@ namespace Sharp_Project
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			Humanidadesinfo Huin = new Humanidadesinfo();
+			Huin.Show();
+		}
 	}
 }

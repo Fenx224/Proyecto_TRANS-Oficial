@@ -86,6 +86,9 @@
     <EmbeddedResource Include="Fisica.resx">
       <DependentUpon>Fisica.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HumanidadesForm.resx">
+      <DependentUpon>HumanidadesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LenguaYComunicacion.resx">
       <DependentUpon>LenguaYComunicacion.cs</DependentUpon>
     </EmbeddedResource>
