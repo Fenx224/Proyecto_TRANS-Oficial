@@ -60,12 +60,13 @@ namespace Sharp_Project
 			// 
 			// label3
 			// 
-			this.label3.Location = new System.Drawing.Point(61, 100);
+			this.label3.Location = new System.Drawing.Point(48, 100);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(686, 23);
+			this.label3.Size = new System.Drawing.Size(686, 35);
 			this.label3.TabIndex = 2;
-			this.label3.Text = "En la materia de humanidades vimos temas relacionados con la filosofia, el bien y" +
-			" el mal, entre otras cosas";
+			this.label3.Text = "La materia de humanidades nos trata de hablar sobre las distintas filosofias que " +
+			"existen para que nosotros tratemos de generar un criterio y estilo de vida propi" +
+			"os";
 			// 
 			// HumanidadesForm
 			// 

@@ -1,0 +1,10 @@
+C:\Users\fenx2\Proyectos\Sharp_Final_Project\Sharp_Project\Sharp_Project\bin\Debug\Sharp_Project.exe
+C:\Users\fenx2\Proyectos\Sharp_Final_Project\Sharp_Project\Sharp_Project\bin\Debug\Sharp_Project.pdb
+C:\Users\fenx2\Proyectos\Sharp_Final_Project\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.csprojResolveAssemblyReference.cache
+C:\Users\fenx2\Proyectos\Sharp_Final_Project\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.AcercaDe.resources
+C:\Users\fenx2\Proyectos\Sharp_Final_Project\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.HumanidadesForm.resources
+C:\Users\fenx2\Proyectos\Sharp_Final_Project\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.LenguaYComunicacion.resources
+C:\Users\fenx2\Proyectos\Sharp_Final_Project\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.MainForm.resources
+C:\Users\fenx2\Proyectos\Sharp_Final_Project\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.csproj.GenerateResource.Cache
+C:\Users\fenx2\Proyectos\Sharp_Final_Project\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.exe
+C:\Users\fenx2\Proyectos\Sharp_Final_Project\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.pdb
