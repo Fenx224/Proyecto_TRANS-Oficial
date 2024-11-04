@@ -102,7 +102,7 @@ namespace Sharp_Project
             }
             else
             {
-                MessageBox.Show("Por favor, ingresa al menos una calificación válida.");
+                MessageBox.Show("Por favor, ingresa  al menos una calificación válida.");
             }
 		}
 	}
