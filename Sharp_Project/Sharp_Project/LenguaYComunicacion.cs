@@ -42,7 +42,7 @@ namespace Sharp_Project
 		
 		void BtnJUEGO3Click(object sender, EventArgs e)
 		{
-			System.Diagnostics.Process.Start("https://www.google.com");
+			System.Diagnostics.Process.Start("https://forms.gle/T4C33BHdXrABuPA1A");
 		}
 	}
 }
