@@ -117,7 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label2.Text" xml:space="preserve">
-    <value>En la materia de humanidades aprendemos sobre diferentes ramas filosoficas y formas de pensar, el objetivo de la materia es el de tratar de que formemos una pensamiento objetvio, critico y propio, enfocado por un camino orientado al bien, la madures y objetivo</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>La etica y la moral son dos temas que se complementan mutuamente, pues, la moral es a nuestro criterio que esta bien y que es lo que esta mal, esta se crea apartir de vivencias, y en parte, tambien es influenciada en menor medida por otras personas.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Mientras tanto la etica se puede definir como algo que la sociedad en general tiene por sentado como algo bueno y algo malo, por ejemplo, el matar esta colectivamente mal visto en cualquier parte del munod y cualquier sociedad, esto ya esta arraigado en la etica de las personas, a su vez, esta tambien entra como una disciplina, pues a menudo se usa la etica como una ciencia que investiga y trata de explicar sobre la moral de las personas.</value>
   </data>
 </root>
