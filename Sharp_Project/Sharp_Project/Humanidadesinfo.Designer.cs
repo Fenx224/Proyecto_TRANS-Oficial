@@ -43,5 +43,10 @@ namespace Sharp_Project
 			this.Text = "Humanidadesinfo";
 			this.Name = "Humanidadesinfo";
 		}
+		
+		public void Show()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
