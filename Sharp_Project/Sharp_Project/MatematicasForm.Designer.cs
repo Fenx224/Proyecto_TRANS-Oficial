@@ -39,11 +39,9 @@ namespace Sharp_Project
 			this.lblPromedio = new System.Windows.Forms.Label();
 			this.lblReprobados = new System.Windows.Forms.Label();
 			this.lblAprobados = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
 			this.lblMenor = new System.Windows.Forms.Label();
 			this.lblMayor = new System.Windows.Forms.Label();
 			this.lblPromAprobados = new System.Windows.Forms.Label();
-			this.lblMedia = new System.Windows.Forms.Label();
 			this.lblModa = new System.Windows.Forms.Label();
 			this.txtCalificaciones = new System.Windows.Forms.TextBox();
 			this.btnCalcular = new System.Windows.Forms.Button();
@@ -76,15 +74,6 @@ namespace Sharp_Project
 			this.lblAprobados.TabIndex = 2;
 			this.lblAprobados.Text = "$$$$$$";
 			// 
-			// label4
-			// 
-			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label4.Location = new System.Drawing.Point(532, 208);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(254, 46);
-			this.label4.TabIndex = 5;
-			this.label4.Text = "$$$$$$";
-			// 
 			// lblMenor
 			// 
 			this.lblMenor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -106,20 +95,11 @@ namespace Sharp_Project
 			// lblPromAprobados
 			// 
 			this.lblPromAprobados.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblPromAprobados.Location = new System.Drawing.Point(532, 254);
+			this.lblPromAprobados.Location = new System.Drawing.Point(272, 254);
 			this.lblPromAprobados.Name = "lblPromAprobados";
-			this.lblPromAprobados.Size = new System.Drawing.Size(254, 46);
+			this.lblPromAprobados.Size = new System.Drawing.Size(344, 46);
 			this.lblPromAprobados.TabIndex = 8;
 			this.lblPromAprobados.Text = "$$$$$$";
-			// 
-			// lblMedia
-			// 
-			this.lblMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblMedia.Location = new System.Drawing.Point(272, 254);
-			this.lblMedia.Name = "lblMedia";
-			this.lblMedia.Size = new System.Drawing.Size(254, 46);
-			this.lblMedia.TabIndex = 7;
-			this.lblMedia.Text = "$$$$$$";
 			// 
 			// lblModa
 			// 
@@ -132,6 +112,7 @@ namespace Sharp_Project
 			// 
 			// txtCalificaciones
 			// 
+			this.txtCalificaciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.txtCalificaciones.Location = new System.Drawing.Point(12, 12);
 			this.txtCalificaciones.Multiline = true;
 			this.txtCalificaciones.Name = "txtCalificaciones";
@@ -156,9 +137,7 @@ namespace Sharp_Project
 			this.Controls.Add(this.btnCalcular);
 			this.Controls.Add(this.txtCalificaciones);
 			this.Controls.Add(this.lblPromAprobados);
-			this.Controls.Add(this.lblMedia);
 			this.Controls.Add(this.lblModa);
-			this.Controls.Add(this.label4);
 			this.Controls.Add(this.lblMenor);
 			this.Controls.Add(this.lblMayor);
 			this.Controls.Add(this.lblAprobados);
@@ -172,11 +151,9 @@ namespace Sharp_Project
 		private System.Windows.Forms.Button btnCalcular;
 		private System.Windows.Forms.TextBox txtCalificaciones;
 		private System.Windows.Forms.Label lblModa;
-		private System.Windows.Forms.Label lblMedia;
 		private System.Windows.Forms.Label lblPromAprobados;
 		private System.Windows.Forms.Label lblMayor;
 		private System.Windows.Forms.Label lblMenor;
-		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Label lblAprobados;
 		private System.Windows.Forms.Label lblReprobados;
 		private System.Windows.Forms.Label lblPromedio;

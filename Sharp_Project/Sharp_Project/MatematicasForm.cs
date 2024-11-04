@@ -38,7 +38,6 @@ namespace Sharp_Project
             // Separar las calificaciones por comas, espacios o saltos de línea
             string[] califArray = input.Split(new char[] { ',', ' ', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
-            // Variables para cálculos
             int suma = 0;
             int sumaAprobados = 0;
             int aprobados = 0;
@@ -46,12 +45,12 @@ namespace Sharp_Project
             int mayor = int.MinValue;
             int menor = int.MaxValue;
             int totalCalificaciones = califArray.Length;
-
-            // Diccionario para contar la moda
-            int[] conteo = new int[101]; // Asume que las calificaciones son entre 0 y 100
+            
+            int[] contar = new int[101]; 
             int moda = 0;
             int maxCount = 0;
 
+            
             for (int i = 0; i < totalCalificaciones; i++)
             {
                 int calificacion;
@@ -63,7 +62,7 @@ namespace Sharp_Project
                     // Calcular mayor y menor
                     if (calificacion > mayor) mayor = calificacion;
                     if (calificacion < menor) menor = calificacion;
-
+	
                     // Contar aprobados y reprobados, y sumar aprobados para su promedio
                     if (calificacion >= 60)
                     {
@@ -76,21 +75,23 @@ namespace Sharp_Project
                     }
 
                     // Calcular moda usando el conteo
-                    conteo[calificacion]++;
-                    if (conteo[calificacion] > maxCount)
+                    contar[calificacion]++;
+                    if (contar[calificacion] > maxCount)
                     {
-                        maxCount = conteo[calificacion];
+                        maxCount = contar[calificacion];
                         moda = calificacion;
                     }
+            
                 }
             }
 
+        
             // Verificar que haya calificaciones válidas para evitar división por cero
             if (totalCalificaciones > 0)
             {
                 double promedio = (double)suma / totalCalificaciones;
                 double promedioAprobados = aprobados > 0 ? (double)sumaAprobados / aprobados : 0;
-
+				
                 // Mostrar resultados en los labels
                 lblPromedio.Text = "Promedio: " + promedio;
                 lblMayor.Text = "Mayor: " + mayor;
