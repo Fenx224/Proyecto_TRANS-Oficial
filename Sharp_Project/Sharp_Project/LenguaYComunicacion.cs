@@ -37,7 +37,7 @@ namespace Sharp_Project
 		
 		void btnJUEGO2Click(object sender, EventArgs e)
 		{
-			System.Diagnostics.Process.Start("https://www.google.com");
+			System.Diagnostics.Process.Start("https://forms.gle/8WpcNUFpYZyw15YBA");
 		}
 		
 		void BtnJUEGO3Click(object sender, EventArgs e)
