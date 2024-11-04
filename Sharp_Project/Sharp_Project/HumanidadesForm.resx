@@ -123,4 +123,17 @@
   <data name="label4.Text" xml:space="preserve">
     <value>Mientras tanto la etica se puede definir como algo que la sociedad en general tiene por sentado como algo bueno y algo malo, por ejemplo, el matar esta colectivamente mal visto en cualquier parte del munod y cualquier sociedad, esto ya esta arraigado en la etica de las personas, a su vez, esta tambien entra como una disciplina, pues a menudo se usa la etica como una ciencia que investiga y trata de explicar sobre la moral de las personas.</value>
   </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>En este parcial indagamos un poco mas acerca de lo subjetivo y lo objetivo. Lo subjetivo se refiere a todo aquello que
+apartir de la perspectiva del usuario esta bien o correcto, esta perspectiva se crea en base a las experiencias vividas
+por lapersona a la cual se lo preguntes, esta puede ser diferente a la de los demas y puede estar bien o mal dependiendo a quien le preguntes.
+Lo objetivo es todo aquello que colectivamente ya se cree correcto o que asi deberia de ser, por ejemplo, objetivamente
+todas las personas saben que el cielo es azul, lo objetivo es un conjunto de creencias que la sociedad en general saben que son correctas.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Este para muchos es el tema mas debativo en el area de la filosofia y tambien es considerado como la pregunta mas importante y de lo que gira al rededor de la filosofia, pues no se puede dar una respuesta en concreto y al solucionar esta interrogante se solucionarian muchas otras como, ¿En verdad funciona lo que hacemos en vida?, o ¿Que existe mas haya?, ¿Existe algun dios?, por ello es que los mas grandes filosofos han intentado darle una respuesta, puesto puede cambiar completamente nuestra realidad y to lo que pensamos.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Como se puede apreciar, la mayoria de los temas estan relacionados y girar al rededor de el bien, mal y si es que hay algun dios o una fuerza ahi afuera, la filosofia se trata sobre preguntarse y tratar de encontrar una respuesta, no es una siencia excata como las demas pero han hecho aportes igual o mas importantes que ellas, no por nada es su precursora y gracias a ella existen las demas</value>
+  </data>
 </root>
