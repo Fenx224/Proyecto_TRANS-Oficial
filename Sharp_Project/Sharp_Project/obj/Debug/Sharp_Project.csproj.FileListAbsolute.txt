@@ -1,0 +1,6 @@
+C:\Users\CC2_PC49\Proyecto_TRANS-Oficial\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC49\Proyecto_TRANS-Oficial\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.Fisica.resources
+C:\Users\CC2_PC49\Proyecto_TRANS-Oficial\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.HumanidadesForm.resources
+C:\Users\CC2_PC49\Proyecto_TRANS-Oficial\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.LenguaYComunicacion.resources
+C:\Users\CC2_PC49\Proyecto_TRANS-Oficial\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.MainForm.resources
+C:\Users\CC2_PC49\Proyecto_TRANS-Oficial\Sharp_Project\Sharp_Project\obj\Debug\Sharp_Project.csproj.GenerateResource.Cache
