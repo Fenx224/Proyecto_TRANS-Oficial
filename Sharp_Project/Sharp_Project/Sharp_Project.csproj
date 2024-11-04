@@ -89,6 +89,9 @@
     <EmbeddedResource Include="HumanidadesForm.resx">
       <DependentUpon>HumanidadesForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Humanidadesinfo.resx">
+      <DependentUpon>Humanidadesinfo.Designer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LenguaYComunicacion.resx">
       <DependentUpon>LenguaYComunicacion.cs</DependentUpon>
     </EmbeddedResource>
