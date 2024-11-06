@@ -28,5 +28,13 @@ namespace Sharp_Project
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		void Label1Click(object sender, EventArgs e)
+		{
+	
+		}
+		void Label3Click(object sender, EventArgs e)
+		{
+	
+		}
 	}
 }
